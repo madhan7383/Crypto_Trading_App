@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "coinbase-pro": "^0.9.0",
+    "dotenv": "^16.0.1",
+    "socket.io": "^4.5.1",
+    "socket.io-client": "^4.5.1"
+  },
+  "scripts": {
+    "l2": "node ./l2-server.js",
+    "match": "node ./match-server.js"
+  }
+}
